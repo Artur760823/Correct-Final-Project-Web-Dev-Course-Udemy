@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tahoma, arial;
+}
+header {
+  display: flex;
+  background-image: url("tło.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 26px;
+}
+button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 260px;
+  font-size: 20px;
+  background-color: brown;
+  border: 3px solid darkred;
+  color: white;
+  cursor: pointer;
+}
